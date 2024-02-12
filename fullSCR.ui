@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fullSCR</class>
+ <widget class="QMainWindow" name="fullSCR">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1978</width>
+    <height>1223</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#081a3a;
+color: #5DBE06;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="minimumSize">
+       <size>
+        <width>1960</width>
+        <height>1161</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Меню</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Полный контроль</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Передача файлов</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Управление питанием</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Терминал</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Кейлоггер</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
